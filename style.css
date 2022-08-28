@@ -7,7 +7,7 @@ body
 {
     color: orange;
 }
-section
+.ahsan
 {
 display: flex;
 }
@@ -21,8 +21,9 @@ display: flex;
 }
 .flex img
 {
-    width: 60%;
-    padding-top: 7%;
+    width: 80%;
+    
+    padding-right: 10%;
 }
 
 #safa
@@ -60,3 +61,56 @@ h1
     background-repeat: no-repeat;
     background-position: right;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-top: 20px;
+    
+  }
+  .box
+  {
+    box-shadow: 10px 10px 30px gray;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 30px;
+    border-left: 7px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+.lttl
+  {
+    padding: 10px 10px;
+    padding right:5%;
+  }
+  textarea
+  {
+    resize: none;
+    width: 50%;
+    border: 3px solid gray;
+    border-color: no;
+    border-radius: 5px;
+    text-align: center;
+  }
+  input-[type="button"]{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: cornsilk;
+    background-color: orange;
+  }
