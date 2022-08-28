@@ -96,7 +96,7 @@ h1
 .lttl
   {
     padding: 10px 10px;
-    padding right:5%;
+    padding-left:5%;
   }
   textarea
   {
@@ -106,11 +106,14 @@ h1
     border-color: no;
     border-radius: 5px;
     text-align: center;
+    background-color: black;
+    color: aliceblue;
   }
-  input-[type="button"]{
+  input[type="button"]{
     width: 100px;
     padding: 10px;
     border: none;
     color: cornsilk;
-    background-color: orange;
+    background-color:black;
+    
   }
